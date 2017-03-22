@@ -5,7 +5,7 @@
 	<title>page php</title>
 </head>
 <body>
-	<form action="user.php" method="GET">
+	<form action="index.php" method="GET">
 		<label for="name">Nom</label>
 		<input type="text" name="name">
 		<label for="firstName">Prenom</label>
