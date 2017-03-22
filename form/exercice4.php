@@ -4,7 +4,7 @@
 	<title>page php</title>
 </head>
 <body>
-	<form action="user.php" method="GET">
+	<form action="user.php" method="POST">
 		<label for="name">Nom</label>
 		<input type="text" name="name">
 		<label for="firstName">Prenom</label>
@@ -13,8 +13,8 @@
 	</form>
 	<?php
 
-	echo $_GET["name"];
-	echo $_GET["firstName"];
+	echo $_POST["name"];
+	echo $_POST["firstName"];
 	?>
  </body>
 </html>
